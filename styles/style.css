@@ -1,0 +1,19 @@
+html, body {
+    height: 100%; /* Essential to make the container expand to the full height */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    min-height: 100vh; /* Minimum height is full viewport height */
+}
+
+main {
+    flex-grow: 1; /* Allows the main content to expand and fill available space */
+}
+
+.footer {
+    flex-shrink: 0; /* Ensures the footer does not shrink */
+}
